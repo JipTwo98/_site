@@ -79,6 +79,7 @@
 
 body {
     font-family: "Lato", sans-serif;
+    transform: scale(1);
 }
 
 main {
@@ -94,12 +95,12 @@ main {
 }
 
 #div-i {
-    margin: 300px;
+    margin: 15.63%;
     text-align: center;
 }
 
 .btn-1 {
-    margin: 30px;
+    margin: 1.56%;
     border-radius: 30px;
     border: 2px solid #6CD1CB;
     padding: 10px 20px;
@@ -113,10 +114,10 @@ main {
 }
 
 .arrow {
-    width: 58px;
-    margin-right: 60px;
+    width: 3.02%;
+    margin-right: 3.13%;
     align-items: center;
-    margin-top: -58px;
+    margin-top: -3.02%;
 }
 
 .wrap {
@@ -128,13 +129,13 @@ main {
 }
 
 #bg {
-    height: 389px;
+    height: 20.28%;
     width: 100%;
     background: none;
 }
 
 #title-1 {
-    font-size: 45px;
+    font-size: 2.8125rem;
     font-weight: bold;
     line-height: 1.5;
     color: var(--unnamed-color-6cd1cb);
@@ -146,30 +147,30 @@ main {
 }
 
 #desktop {
-    font-size: 28px;
+    font-size: 1.75rem;
     color: var(--unnamed-color-252525);
     text-align: center;
     font: normal normal normal 28px/45px Lato;
     letter-spacing: 0px;
     color: #252525;
-    opacity: 0.7;
+    opacity: 1;
 }
 
 #title-2 {
     text-align: left;
     margin-left: 0;
     margin-top: 10%;
-    font-size: 89px;
+    font-size: 5.5625rem;
     font-weight: bold;
     color: rgb(11, 11, 11);
     line-height: 1.5;
 }
 
 #title-3 {
-    margin: 30px;
+    margin: 1.56%;
     margin-right: 0;
     text-align: right;
-    font-size: 89px;
+    font-size: 5.5625rem;
     font-weight: bold;
 }
 
@@ -180,26 +181,24 @@ main {
     opacity: 1;
     backdrop-filter: blur(50px);
     -webkit-backdrop-filter: blur(50px);
-    width: 1364px;
+    width: 100%;
     height: 527px;
     max-width: 100%;
-    margin-top: -30%;
-    padding: 100px;
-    border-radius: 49px;
-    
+    padding: 5.21%;
+    margin-top: -450px;
 }
 
 #title-4 {
     text-align: left;
     padding-left: 50px;
-    font-size: 45px;
-    margin-top: 0;
+    font-size: 2.8125rem;
+    margin-top: 5.21%
 }
 
 #list-1 {
     text-align: left;
     padding-left: 50px;
-    font-size: 28px;
+    font-size: 1.75rem;
     padding-top: 50px;
 }
 
@@ -207,12 +206,11 @@ main {
     width: 90%;
     max-width: 70%;
     margin: auto;
-    margin-top: -220px;
 }
 
 #subpages-2 {
     padding: 0;
-    margin-top: 200px;
+    margin-top: 10.42%;
 }
 
 #rec  {
@@ -227,23 +225,29 @@ main {
     opacity: 1;
 }
 
-.subpages button {
-    height: 218px;
-    margin: 0;
-}
-
 #bb-button {
-    height: 200px;
-    width: 653px;
-    margin: 13px;
+    height: 8rem;
+    width: 32rem;
+    margin: 0;
     background: var(--unnamed-color-6cd1cb) 0% 0% no-repeat padding-box;
     background: #6CD1CB 0% 0% no-repeat padding-box;
     opacity: 1;
     border-radius: 30px;
-    font-size: 45px;
+    font-size: 2rem;
     font-weight: bold;
     padding-left: 60px;
     text-align: left;
+    transform: scale(1);
+}
+
+#bb-container {
+    display: grid;
+    justify-content: space-between;
+}
+
+.arrow {
+    width: 50px;
+    margin-bottom: -8px;
 }
 
 .line {
@@ -254,31 +258,32 @@ main {
     border: 1.5px solid var(--unnamed-color-6cd1cb);
     border: 2px solid #6CD1CB;
     opacity: 1;
+    width: 1000%;
+    margin-left: -200%;
 }
 
 #blocks {
-    padding: 5px;
-    margin-bottom: 200px;
+    margin-bottom: 12.5rem;
     box-shadow: none;
 }
 
 #block-element-1 {
-    width: 653px;
-    height: 434px;
+    width: 40rem;
+    height: 20rem;
     background: transparent url('img/Article 1.png') 0% 0% no-repeat padding-box;
     border-radius: 15px;
     opacity: 1;
 }
 
 #block-element-2 {
-    width: 446px;
-    height: 34px;
-    font-size: 28px;
+    text-align: left;
+    height: 2.125rem;
+    font-size: 1.75rem;
     font-weight: bold;
     margin: 15px;
     margin-left: 0;
+    padding: 0;
     color: var(--unnamed-color-252525);
-    text-align: center;
     font: normal normal bold 28px/45px Lato;
     letter-spacing: 0px;
     color: #252525;
@@ -286,8 +291,7 @@ main {
 }
 
 #block-element-3 {
-    width: 604px;
-    height: 47px;
+    height: 3rem;
     color: var(--unnamed-color-252525);
     text-align: left;
     font: normal normal normal 18px/25px Lato;
