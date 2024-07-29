@@ -5,6 +5,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title></title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./css/home.css">
     <script src="https://cdn.tailwindcss.com?plugins=forms,typography"></script>
     <script src="scripts.js" defer></script>
@@ -37,7 +40,7 @@
                 <a href="./about.html" class="text-foreground hover:text-primary">About</a>
                 <a href="./activities.html" class="text-foreground hover:text-primary">Activities</a>
                 <a href="./blog.html" class="text-foreground hover:text-primary">Blog</a>
-                <a href="./about.html/#tocontact" class="text-foreground hover:text-primary">Contact</a>
+                <a href="./about.html#tocontact" class="text-foreground hover:text-primary">Contact</a>
             </div>
             <div class="md:hidden">
                 <button id="menu-button" class="text-foreground hover:text-primary focus:outline-none">
@@ -53,7 +56,7 @@
             <a href="./about.html" class="block px-4 py-2 text-foreground hover:bg-primary hover:text-primary-foreground">About</a>
             <a href="./activities.html" class="block px-4 py-2 text-foreground hover:bg-primary hover:text-primary-foreground">Activities</a>
             <a href="./blog.html" class="block px-4 py-2 text-foreground hover:bg-primary hover:text-primary-foreground">Blog</a>
-            <a href="./about.html/#tocontact" class="block px-4 py-2 text-foreground hover:bg-primary hover:text-primary-foreground">Contact</a>
+            <a href="./about.html#tocontact" class="block px-4 py-2 text-foreground hover:bg-primary hover:text-primary-foreground">Contact</a>
         </div>
     </div>
 </body>
@@ -75,26 +78,26 @@
     <main class="flex flex-col items-center mt-8 px-4" id="header-pic">
         <img src="./Media/headerpic.jpg" alt="People wearing t-shirts with IMAM letters" class="w-full max-w-4xl object-cover">
         <div class="text-center mt-8" id="div-i">
-            <h1 class="text-2xl font-semibold text-primary" id="title-1">Institute for Muslim Affairs in Myanmar</h1>
+            <h1 class="text-2xl font-semibold text-primary" id="title-1">Institute for Muslim Affairs <br>in Myanmar</h1>
             <p class="mt-4 text-muted-foreground" id="desktop">
-                We are an independent and non-governmental scholarly think tank to promote the issues of
-                Muslim minority rights, highlighting minority participation in the political process of Myanmar
-                with unique strategies and initiatives. We will follow liberal democratic values and foster the
-                development of multiculturalism in the diverse communities of Burma.
+                We are an independent and non-governmental scholarly think tank <br>to promote the issues of
+                Muslim minority rights, highlighting <br>minority participation in the political process of Myanmar
+                with <br>unique strategies and initiatives. We will follow liberal democratic values <br>and foster the
+                development of multiculturalism in the <br>diverse communities of Burma.
             </p>
-            <a href="/about" class="text-foreground hover:text-primary">
+            <a href="./about" class="text-foreground hover:text-primary">
                 <button class="btn-1">Find out more</button>
             </a>
         </div>
     </main>
-
-    <div class="bg-gradient-to-b from-teal-400 to-teal-300 p-8 text-white" id="bg">
-        <div class="container mx-auto text-center">
-            <h1 class="text-3xl font-bold" id="title-2">Building Multicultural Society in Burma</h1>
-            <h1 class="text-3xl font-bold" id="title-3">Minority Matters</h1>
+<div class="wrap">
+        <div class="bg-gradient-to-b from-teal-400 to-teal-300 p-8 text-white" id="bg">
+            <div class="container mx-auto text-center">
+                <h1 class="text-3xl font-bold" id="title-2">Building Multicultural <br>Society in Burma</h1>
+                <h1 class="text-3xl font-bold" id="title-3">Minority Matters</h1>
+            </div>
         </div>
-    </div>
-
+</div>
     <div class="subpages">
         <div class="bg-white bg-opacity-20 rounded-lg p-6 mt-8 mx-auto max-w-2xl" id="div-ii">
             <h3 class="text-lg font-semibold text-white" id="title-4">Our Missions</h3>
@@ -106,65 +109,64 @@
         </div>
 
         <div class="grid grid-cols-1 md:grid-cols-2 gap-4 mt-8">
-            <button class="bg-teal-500 text-white py-4 px-6 rounded-lg flex items-center justify-between">Research
+            <button class="bg-teal-500 text-white py-4 px-6 rounded-lg flex items-center justify-between" id="bb-button">Research
                 <div class="arrow">
                     <span class="ml-2"><img src="./Media/Arrowicon.png" alt=""></span>
                 </div>
             </button>
-            <button class="bg-teal-500 text-white py-4 px-6 rounded-lg flex items-center justify-between">Training
+            <button class="bg-teal-500 text-white py-4 px-6 rounded-lg flex items-center justify-between" id="bb-button">Training
                 <div class="arrow">
                     <span class="ml-2"><img src="./Media/Arrowicon.png" alt=""></span>
                 </div>
             </button>
-            <button class="bg-teal-500 text-white py-4 px-6 rounded-lg flex items-center justify-between">Advocacy
+            <button class="bg-teal-500 text-white py-4 px-6 rounded-lg flex items-center justify-between" id="bb-button">Advocacy
                 <div class="arrow">
                     <span class="ml-2"><img src="./Media/Arrowicon.png" alt=""></span>
                 </div>
             </button>
-            <button class="bg-teal-500 text-white py-4 px-6 rounded-lg flex items-center justify-between">Raising
-                Minorities’ Voice
+            <button class="bg-teal-500 text-white py-4 px-6 rounded-lg flex items-center justify-between" id="bb-button">Raising
+                <br>Minorities’ Voice
                 <div class="arrow">
                     <span class="ml-2"><img src="./Media/Arrowicon.png" alt=""></span>
                 </div>
             </button>
-            <button class="bg-teal-500 text-white py-4 px-6 rounded-lg flex items-center justify-between">Humanitarian
-                Assistance
+            <button class="bg-teal-500 text-white py-4 px-6 rounded-lg flex items-center justify-between" id="bb-button">Humanitarian<br>Assistance
                 <div class="arrow">
                     <span class="ml-2"><img src="./Media/Arrowicon.png" alt=""></span>
                 </div>
             </button>
         </div>
-
+<div class="line"></div>
         <div class="bg-background text-foreground p-8" id="subpages-2">
-            <h2 class="text-2xl font-bold mb-8 text-center">Recent Activity</h2>
+            <h2 class="text-2xl font-bold mb-8 text-center" id="rec">Recent Activity</h2>
             <div class="grid grid-cols-1 md:grid-cols-2 gap-8" id="blocks">
-                <div class="bg-card p-4 rounded-lg shadow">
-                    <img src="./Media/headerpic.jpg" alt="A hope for better future" class="rounded-lg mb-4">
-                    <h3 class="text-xl font-semibold mb-2">The Spring: A hope for better future</h3>
-                    <p class="text-muted-foreground mb-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                <div class="bg-card p-4 rounded-lg">
+                    <img src="./Media/headerpic.jpg" alt="A hope for better future" id="block-element-1">
+                    <h3 class="text-xl font-semibold mb-2" id="block-element-2">The Spring: A hope for better future</h3>
+                    <p class="text-muted-foreground mb-4" id="block-element-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                         eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
-                    <button class="bg-primary text-primary-foreground hover:bg-primary/80 px-4 py-2 rounded">Read More</button>
+                    <button class="bg-primary text-primary-foreground hover:bg-primary/80 px-4 py-2 rounded" id="block-element-4">Read More</button>
                 </div>
-                <div class="bg-card p-4 rounded-lg shadow">
-                    <img src="./Media/headerpic.jpg" alt="Research on ...." class="rounded-lg mb-4">
-                    <h3 class="text-xl font-semibold mb-2">Research on ....</h3>
-                    <p class="text-muted-foreground mb-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                <div class="bg-card p-4 rounded-lg">
+                    <img src="./Media/headerpic.jpg" alt="A hope for better future" id="block-element-1">
+                    <h3 class="text-xl font-semibold mb-2" id="block-element-2">The Spring: A hope for better future</h3>
+                    <p class="text-muted-foreground mb-4" id="block-element-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                         eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
-                    <button class="bg-primary text-primary-foreground hover:bg-primary/80 px-4 py-2 rounded">Read More</button>
+                    <button class="bg-primary text-primary-foreground hover:bg-primary/80 px-4 py-2 rounded" id="block-element-4">Read More</button>
                 </div>
-                <div class="bg-card p-4 rounded-lg shadow">
-                    <img src="./Media/headerpic.jpg" alt="Headline 1" class="rounded-lg mb-4">
-                    <h3 class="text-xl font-semibold mb-2">Headline 1</h3>
-                    <p class="text-muted-foreground mb-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                <div class="bg-card p-4 rounded-lg">
+                    <img src="./Media/headerpic.jpg" alt="A hope for better future" id="block-element-1">
+                    <h3 class="text-xl font-semibold mb-2" id="block-element-2">The Spring: A hope for better future</h3>
+                    <p class="text-muted-foreground mb-4" id="block-element-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                         eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
-                    <button class="bg-primary text-primary-foreground hover:bg-primary/80 px-4 py-2 rounded">Read More</button>
+                    <button class="bg-primary text-primary-foreground hover:bg-primary/80 px-4 py-2 rounded" id="block-element-4">Read More</button>
                 </div>
-                <div class="bg-card p-4 rounded-lg shadow">
-                    <img src="./Media/headerpic.jpg" alt="Headline 2" class="rounded-lg mb-4">
-                    <h3 class="text-xl font-semibold mb-2">Headline 2</h3>
-                    <p class="text-muted-foreground mb-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                <div class="bg-card p-4 rounded-lg">
+                    <img src="./Media/headerpic.jpg" alt="A hope for better future" id="block-element-1">
+                    <h3 class="text-xl font-semibold mb-2" id="block-element-2">The Spring: A hope for better future</h3>
+                    <p class="text-muted-foreground mb-4" id="block-element-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                         eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
-                    <button class="bg-primary text-primary-foreground hover:bg-primary/80 px-4 py-2 rounded">Read More</button>
+                    <button class="bg-primary text-primary-foreground hover:bg-primary/80 px-4 py-2 rounded" id="block-element-4">Read More</button>
                 </div>
             </div>
         </div>
