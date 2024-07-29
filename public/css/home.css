@@ -198,7 +198,7 @@ main {
     text-align: left;
     padding-left: 50px;
     font-size: 2.8125rem;
-    margin-top: 5.21%
+    margin-top: 6.25rem;
 }
 
 #list-1 {
@@ -234,7 +234,7 @@ main {
 
 #bb-button {
     height: 8rem;
-    width: 32rem;
+    width: 100%; /* Adjust width to be responsive */
     margin: 0;
     background: var(--unnamed-color-6cd1cb) 0% 0% no-repeat padding-box;
     background: #6CD1CB 0% 0% no-repeat padding-box;
@@ -242,14 +242,16 @@ main {
     border-radius: 30px;
     font-size: 2rem;
     font-weight: bold;
-    padding-left: 60px;
+    padding-left: 1.5rem; /* Adjust padding for smaller screens */
     text-align: left;
     transform: scale(1);
 }
 
 #bb-container {
     display: grid;
-    justify-content: space-between;
+    gap: 1rem; /* Add gap between buttons */
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
 }
 
 .arrow {
@@ -272,6 +274,10 @@ main {
 #blocks {
     margin-bottom: 12.5rem;
     box-shadow: none;
+    display: grid;
+    gap: 1rem; /* Add gap between buttons */
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
 }
 
 #block-element-1 {
