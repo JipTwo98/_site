@@ -90,6 +90,7 @@ main {
     height: auto;
     display: block;
     max-width: 100%;
+    margin: 0;
 }
 
 #div-i {
@@ -120,7 +121,7 @@ main {
 
 .wrap {
     height: 1080px;
-    width: 1920px;
+    width: 100%;
     background: var(--unnamed-color-6cd1cb) 0% 0% no-repeat padding-box;
     background: #6CD1CB 0% 0% no-repeat padding-box;
     opacity: 1;
