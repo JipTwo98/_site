@@ -21,33 +21,21 @@
         --ring: 240 5.9% 10%;
         --radius: 0.5rem;
     }
-    .dark {
-        --background: 240 10% 3.9%;
-        --foreground: 0 0% 98%;
-        --card: 240 10% 3.9%;
-        --card-foreground: 0 0% 98%;
-        --popover: 240 10% 3.9%;
-        --popover-foreground: 0 0% 98%;
-        --primary: 0 0% 98%;
-        --primary-foreground: 240 5.9% 10%;
-        --secondary: 240 3.7% 15.9%;
-        --secondary-foreground: 0 0% 98%;
-        --muted: 240 3.7% 15.9%;
-        --muted-foreground: 240 5% 64.9%;
-        --accent: 240 3.7% 15.9%;
-        --accent-foreground: 0 0% 98%;
-        --destructive: 0 62.8% 30.6%;
-        --destructive-foreground: 0 0% 98%;
-        --border: 240 3.7% 15.9%;
-        --input: 240 3.7% 15.9%;
-        --ring: 240 4.9% 83.9%;
-    }
 }
 
 main {
     padding-top: 100px;
 }
 
+.abt {
+    color: var(--unnamed-color-6cd1cb);
+    text-align: center;
+    font-size: 3rem;
+    font-weight: bold;
+    letter-spacing: 0px;
+    color: #6CD1CB;
+    opacity: 1;
+}
 
 #blog-layout {
     width: 90%;
@@ -74,8 +62,56 @@ main {
 }
 
 #sbox {
-    margin-top: 100px;
-    height: 100px;
+    margin-top: 15rem; 
+    margin-left: 0;
+    width: 8.3125rem; 
+    height: 2.75rem; 
+    border: 1px solid #6CD1CB;
+    border-radius: 0.3125rem;
+    opacity: 1;
+    background: none;
+    color: #000;    
+}
+
+#block-element-1 {
+    width: 25rem;
+    height: 27.125rem; 
+    background: transparent url('img/Article 1.png') 0% 0% no-repeat padding-box;
+    border-radius: 0.9375rem; 
+    opacity: 1;
+}
+
+#block-element-2 {
+    text-align: left;
+    height: 3rem;
+    font-size: 1.75rem; 
+    font-weight: bold;
+    margin: 0.9375rem; 
+    margin-left: 0;
+    margin-top: -4rem;
+    padding: 0;
+    color: #252525;
+    opacity: 1;
+}
+
+#block-element-3 {
+    height: 6rem;
+    color: #252525;
+    text-align: left;
+    font-size: 1.125rem;
+    opacity: 1;
+}
+
+#block-element-4 {
+    margin-top: 1.25rem; 
+    margin-left: 0;
+    width: 8.3125rem; 
+    height: 2.75rem; 
+    border: 1px solid #6CD1CB;
+    border-radius: 0.3125rem;
+    opacity: 1;
+    background: none;
+    color: #000;
 }
 
 /* Responsive styling */
