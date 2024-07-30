@@ -64,6 +64,16 @@ body {
     margin-right: 0px;
 }
 
+.abt {
+    color: var(--unnamed-color-6cd1cb);
+    text-align: center;
+    font-size: 3rem;
+    font-weight: bold;
+    letter-spacing: 0px;
+    color: #6CD1CB;
+    opacity: 1;
+}
+
 #line {
     height: 2px;
     width: 100%;
@@ -77,8 +87,11 @@ body {
 }
 
 #abbox-1 {
-    background-color: aqua;
     padding-right: 30%;
+    background: var(--unnamed-color-6cd1cb) 0% 0% no-repeat padding-box;
+    background: #6CD1CB 0% 0% no-repeat padding-box;
+    border-radius: 20px 0px 0px 20px;
+    opacity: 1;
 }
 
 #img-1 {
@@ -131,6 +144,9 @@ body {
     height: 200px;
     width: 100%;
     margin: 0 auto;
+    background: var(--unnamed-color-6cd1cb) 0% 0% no-repeat padding-box;
+    background: #6CD1CB 0% 0% no-repeat padding-box;
+    opacity: 1;
 }
 
 #title-2 {
