@@ -47,7 +47,7 @@
     }
     
     #mobile-menu {
-      transition: max-height 0.5s ease-in-out, opacity 0.5s ease-in-out;
+      transition: max-height 2s ease-in-out, opacity 2s ease-in-out;
       max-height: 0;
       opacity: 0;
       overflow: hidden;
@@ -57,10 +57,6 @@
       max-height: 500px; /* Adjust based on the actual height of your menu */
       opacity: 1;
     }
-  }
-  #position {
-    position: fixed;
-    min-width: 100%;
   }
 
   .min-h-screen {
@@ -72,12 +68,22 @@
     max-width: 70%;
     margin: 0 auto;
     border: none;
+    z-index: 1000;
   }
 
   #nav-items {
     display: flex;
     gap: 30px;
+    font-size: 18px;
+    font-weight: bold;
   }
+
+  #position {
+    position: fixed;
+    min-width: 100%;
+    background: #ffff;
+    z-index: 1000;
+}
   
   @media (max-width: 1024px) {
     #nav {
