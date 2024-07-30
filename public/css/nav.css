@@ -76,6 +76,18 @@
     gap: 30px;
     font-size: 18px;
     font-weight: bold;
+    cursor: pointer;
+    color: #000;
+  }
+
+  #nav-items a {
+    color: #000;
+    transition: background-color 0.3s ease, color 0.3s ease;
+ }
+
+
+  #nav-items a:hover {
+      color: #6CD1CB;
   }
 
   #position {
