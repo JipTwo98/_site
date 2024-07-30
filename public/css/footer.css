@@ -24,16 +24,14 @@
       color: hsl(var(--foreground));
     }
   }
-  
-  #footer {
-    width: 90%;
-    max-width: 70%;
-    margin: 0 auto;
-
-  }
 
   #ftbody {
     margin: 0 auto;
+    width: 90%;
+    max-width: 70%;
+    margin: 0 auto;
+    opacity: 1;
+    color: black;
   }
   
   @layer utilities {
