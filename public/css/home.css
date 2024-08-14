@@ -134,7 +134,7 @@ main {
 #title-1 {
     font-size: 2.8125rem;
     font-weight: bold;
-    line-height: 1.5;
+    line-height: 1;
     color: #6CD1CB;
     text-align: center;
 }
@@ -144,6 +144,16 @@ main {
     color: #252525;
     text-align: center;
     opacity: 1;
+    margin-bottom: 1rem;
+}
+
+#otherScreens {
+    display: none;
+    font-size: 1.3rem;
+    color: #252525;
+    text-align: center;
+    opacity: 1;
+    margin-bottom: 1rem;
 }
 
 #title-2 {
@@ -258,11 +268,12 @@ main {
 }
 
 #block-element-1 {
-    width: 40.8125rem;
-    height: 27.125rem; 
+    width: 100%;
+    height: 20rem; 
     background: transparent url('img/Article 1.png') 0% 0% no-repeat padding-box;
     border-radius: 0.9375rem; 
     opacity: 1;
+
 }
 
 #block-element-2 {
@@ -299,6 +310,10 @@ main {
 
     #desktop {
         display: none;
+    }
+
+    #otherScreens {
+        display: block;
     }
 
     #bb-button {
@@ -375,6 +390,10 @@ main {
         display: none;
     }
 
+    #otherScreens {
+        display: block;
+    }
+
     #title-2, #title-3 {
         font-size: 2.5rem; 
     }
@@ -432,6 +451,15 @@ main {
 
     #desktop {
         display: none;
+    }
+
+    #otherScreens {
+        display: block;
+        font-size: 0.7rem;
+        color: #252525;
+        text-align: center;
+        opacity: 1;
+        margin-bottom: 1rem;
     }
 
     main {
