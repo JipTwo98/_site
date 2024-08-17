@@ -351,7 +351,7 @@ main {
 
     .arrow {
         width: 1rem; 
-        margin-bottom: -2rem; 
+        margin-bottom: -0.7rem; 
     }
 
     #blocks {
@@ -462,7 +462,7 @@ main {
 
     .arrow {
         width: 1rem; 
-        margin-bottom: -4rem;
+        margin-bottom: -1.5rem;
     }
 
 }
@@ -539,7 +539,7 @@ main {
 
     .arrow {
         width: 1rem;
-        margin-bottom: -3rem; 
+        margin-bottom: -1.4rem; 
     }
     
 }
