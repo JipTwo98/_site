@@ -59,6 +59,10 @@
     }
   }
 
+  body {
+    font-family: "Lato", sans-serif;
+    
+}
   .min-h-screen {
     min-height: 1vh;
   }
