@@ -79,10 +79,10 @@
 
 body {
     font-family: "Lato", sans-serif;
-    
 }
 
 main {
+    padding: 0;
     padding-top: 3.125rem;
 }
 
@@ -92,6 +92,7 @@ main {
     display: block;
     max-width: 100%;
     margin: 0;
+    padding: 0;
 }
 
 #div-i {
@@ -115,7 +116,7 @@ main {
     width: 3.02%;
     margin-right: 3.13%;
     align-items: center;
-    margin-top: -3.02%;
+    margin-top: 1rem;
 }
 
 .wrap {
@@ -195,7 +196,8 @@ main {
     text-align: left;
     padding-left: 2.604%;
     font-size: 2.8125rem; 
-    margin-top: 6.25rem;
+    margin-top: 5.25rem;
+    margin-bottom: 1rem;
 }
 
 #list-1 {
@@ -237,6 +239,13 @@ main {
     font-weight: bold;
     padding-left: 1.5rem;
     text-align: left;
+    cursor: pointer;
+    transition: background 0.3s ease, transform 0.3s ease;
+}
+
+#bb-button:hover {
+    background: #59bdb6; /* Slightly darker shade of the original color */
+    transform: translateY(-5px); /* Adds a slight lift effect */
 }
 
 #bb-container {
@@ -304,6 +313,17 @@ main {
     border: 1px solid #6CD1CB;
     border-radius: 0.3125rem;
     opacity: 1;
+    cursor: pointer;
+    transition: background 0.3s ease, transform 0.3s ease;
+}
+
+#block-element-4:hover {
+    background: #59bdb6; /* Slightly darker shade of the original color */
+    transform: translateY(-5px); /* Adds a slight lift effect */
+}
+
+#toHide {
+    display: none;
 }
 
 @media (max-width: 1024px) {
