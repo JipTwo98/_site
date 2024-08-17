@@ -1,26 +1,6 @@
-@layer base {
-    :root {
-        --background: 0 0% 100%;
-        --foreground: 240 10% 3.9%;
-        --card: 0 0% 100%;
-        --card-foreground: 240 10% 3.9%;
-        --popover: 0 0% 100%;
-        --popover-foreground: 240 10% 3.9%;
-        --primary: 240 5.9% 10%;
-        --primary-foreground: 0 0% 98%;
-        --secondary: 240 4.8% 95.9%;
-        --secondary-foreground: 240 5.9% 10%;
-        --muted: 240 4.8% 95.9%;
-        --muted-foreground: 240 3.8% 46.1%;
-        --accent: 240 4.8% 95.9%;
-        --accent-foreground: 240 5.9% 10%;
-        --destructive: 0 84.2% 60.2%;
-        --destructive-foreground: 0 0% 98%;
-        --border: 240 5.9% 90%;
-        --input: 240 5.9% 90%;
-        --ring: 240 5.9% 10%;
-        --radius: 0.5rem;
-    }
+body {
+    font-family: "Lato", sans-serif;
+    
 }
 
 main {
@@ -75,16 +55,17 @@ main {
 
 #block-element-1 {
     width: 25rem;
-    height: 27.125rem; 
+    height: 15rem; 
     background: transparent url('img/Article 1.png') 0% 0% no-repeat padding-box;
     border-radius: 0.9375rem; 
     opacity: 1;
+    margin-bottom: 5rem;
 }
 
 #block-element-2 {
     text-align: left;
     height: 3rem;
-    font-size: 1.75rem; 
+    font-size: 1.5rem; 
     font-weight: bold;
     margin: 0.9375rem; 
     margin-left: 0;
@@ -112,6 +93,21 @@ main {
     opacity: 1;
     background: none;
     color: #000;
+    cursor: pointer;
+    transition: background 0.3s ease, transform 0.3s ease;
+}
+
+#block-element-4:hover {
+    background: #59bdb6; /* Slightly darker shade of the original color */
+    transform: translateY(-5px); /* Adds a slight lift effect */
+}
+
+#toHide {
+    display: none;
+}
+
+#sboxToHide {
+    display: none;
 }
 
 /* Responsive styling */
