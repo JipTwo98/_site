@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/blog.css">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
     <script src="https://cdn.tailwindcss.com?plugins=forms,typography"></script>
     <script src="https://unpkg.com/unlazy@0.11.3/dist/unlazy.with-hashing.iife.js" defer init></script>
     <title>blog</title>
@@ -80,43 +81,73 @@
             <h2 class="text-2xl font-bold mb-4">Article</h2>
             <div id="div-i" class="flex flex-wrap gap-8">
                 <div class="bg-card p-4 rounded-lg">
-                    <img src="https://placehold.co/600x400" alt="A hope for better future" id="block-element-1">
+                    <img src="./Media/article1.jpg" alt="A hope for better future" id="block-element-1" >
                     <h3 class="text-xl font-semibold mb-2" id="block-element-2">The Spring: A hope for better future</h3>
-                    <p class="text-muted-foreground mb-4" id="block-element-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                        eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
-                    <button class="bg-primary text-primary-foreground hover:bg-primary/80 px-4 py-2 rounded" id="block-element-4">Read More</button>
+                    <p class="text-muted-foreground mb-4" id="block-element-3">When the news of a Muslim activist appear, Ko Aung Zaw Oo (Muhammad Faruk), died of injuries from inhuman ...</p>
+                    <a href="./article1.html" class="text-foreground hover:text-primary">
+                        <button class="bg-primary text-primary-foreground hover:bg-primary/80 px-4 py-2 rounded" id="block-element-4">Read More</button>
+                    </a>
                 </div>                
-                <div class="bg-card p-4 rounded-lg">
+                <div class="bg-card p-4 rounded-lg" id="toHide">
                     <img src="https://placehold.co/600x400" alt="A hope for better future" id="block-element-1">
                     <h3 class="text-xl font-semibold mb-2" id="block-element-2">The Spring: A hope for better future</h3>
                     <p class="text-muted-foreground mb-4" id="block-element-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                         eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
                     <button class="bg-primary text-primary-foreground hover:bg-primary/80 px-4 py-2 rounded" id="block-element-4">Read More</button>
                 </div>
-                <div id="sbox" class="flex-1 max-w-md flex items-center justify-center">
+                <div id="sboxToHide" class="flex-1 max-w-md flex items-center justify-center">
                     <a href="#" class="text-primary hover:underline">See More</a>
                 </div>
             </div>
         </section>
         <div id="line"></div>
         <section class="mb-16">
-            <h2 class="text-2xl font-bold mb-4">Article</h2>
+            <h2 class="text-2xl font-bold mb-4">Training</h2>
             <div id="div-i" class="flex flex-wrap gap-8">
                 <div class="bg-card p-4 rounded-lg">
-                    <img src="https://placehold.co/600x400" alt="A hope for better future" id="block-element-1">
-                    <h3 class="text-xl font-semibold mb-2" id="block-element-2">The Spring: A hope for better future</h3>
-                    <p class="text-muted-foreground mb-4" id="block-element-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                        eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+                    <img src="./Media/Tr1.jpg" alt="A hope for better future" id="block-element-1">
+                    <h3 class="text-xl font-semibold mb-2" id="block-element-2">Training 1 - Politics, Ethnicity and Conflict</h3>
+                    <p class="text-muted-foreground mb-4" id="block-element-3"> </p>
                     <button class="bg-primary text-primary-foreground hover:bg-primary/80 px-4 py-2 rounded" id="block-element-4">Read More</button>
                 </div>                
                 <div class="bg-card p-4 rounded-lg">
-                    <img src="https://placehold.co/600x400" alt="A hope for better future" id="block-element-1">
-                    <h3 class="text-xl font-semibold mb-2" id="block-element-2">The Spring: A hope for better future</h3>
-                    <p class="text-muted-foreground mb-4" id="block-element-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                        eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+                    <img src="./Media/Tr2.jpg" alt="A hope for better future" id="block-element-1">
+                    <h3 class="text-xl font-semibold mb-2" id="block-element-2">
+                        Training 2 - Inclusion and Exclusion in Myanmar's Federal Democracy
+                    </h3>
+                    <p class="text-muted-foreground mb-4" id="block-element-3"> </p>
                     <button class="bg-primary text-primary-foreground hover:bg-primary/80 px-4 py-2 rounded" id="block-element-4">Read More</button>
                 </div>
-                <div id="sbox" class="flex-1 max-w-md flex items-center justify-center">
+                <div id="sboxTHide" class="flex-1 max-w-md flex items-center justify-center">
+                    <a href="#" class="text-primary hover:underline"></a>
+                </div>
+                <div class="bg-card p-4 rounded-lg">
+                    <img src="./Media/Tr3.jpg" alt="A hope for better future" id="block-element-1">
+                    <h3 class="text-xl font-semibold mb-2" id="block-element-2">
+                        Training 3 - Multiculturalism in divided societies
+                    </h3>
+                    <p class="text-muted-foreground mb-4" id="block-element-3"> </p>
+                    <button class="bg-primary text-primary-foreground hover:bg-primary/80 px-4 py-2 rounded" id="block-element-4">Read More</button>
+                </div>
+                <div class="bg-card p-4 rounded-lg">
+                    <img src="./Media/Tr4.jpg" alt="A hope for better future" id="block-element-1">
+                    <h3 class="text-xl font-semibold mb-2" id="block-element-2">
+                        Training 4 - Basic Political<br>
+                        Psychology and Mental Health
+                    </h3>
+                    <p class="text-muted-foreground mb-4" id="block-element-3"> </p>
+                    <button class="bg-primary text-primary-foreground hover:bg-primary/80 px-4 py-2 rounded" id="block-element-4">Read More</button>
+                </div>
+                <div id="sboxTHide" class="flex-1 max-w-md flex items-center justify-center">
+                    <a href="#" class="text-primary hover:underline"></a>
+                </div>
+                <div class="bg-card p-4 rounded-lg">
+                    <img src="./Media/Tr5.jpg" alt="A hope for better future" id="block-element-1">
+                    <h3 class="text-xl font-semibold mb-2" id="block-element-2">Traininig 5 - Interim political arrangement</h3>
+                    <p class="text-muted-foreground mb-4" id="block-element-3"> </p>
+                    <button class="bg-primary text-primary-foreground hover:bg-primary/80 px-4 py-2 rounded" id="block-element-4">Read More</button>
+                </div>
+                <div id="sboxToHide" class="flex-1 max-w-md flex items-center justify-center">
                     <a href="#" class="text-primary hover:underline">See More</a>
                 </div>
             </div>
@@ -137,26 +168,26 @@
         <div class="grid grid-cols-1 md:grid-cols-4 gap-8 text-center md:text-left" id="ftbody">
           <div>
             <h4 class="font-semibold mb-2">Social Media</h4>
-            <p>Facebook</p>
+            <a href="#" class="text-foreground hover:text-primary"><p>Facebook</p></a>
           </div>
           <div>
             <h4 class="font-semibold mb-2">Contact</h4>
-            <p>imam@gmail.com</p>
-            <p>Signal</p>
+            <a href="#" class="text-foreground hover:text-primary"><p>imam@gmail.com</p></a>
+            <a href="#" class="text-foreground hover:text-primary"><p>Signal</p></a>
           </div>
           <div>
-            <h4 class="font-semibold mb-2">Activities</h4>
-            <p>Research</p>
-            <p>Training</p>
-            <p>Advocacy</p>
-            <p>Raising Minorities' Voice</p>
-            <p>Humanitarian Assistance</p>
+            <a href="./activities.html" class="text-foreground hover:text-primary"><h4 class="font-semibold mb-2">Activities</h4></a>
+            <a href="./activities.html#toResearch" class="text-foreground hover:text-primary"><p>Research</p></a>
+            <a href="./activities.html#toTrain" class="text-foreground hover:text-primary"><p>Training</p></a>
+            <a href="./activities.html#toAdv" class="text-foreground hover:text-primary"><p>Advocacy</p></a>
+            <a href="./activities.html#toRaise" class="text-foreground hover:text-primary"><p>Raising Minorities' Voice</p></a>
+            <a href="./activities.html#toHuman" class="text-foreground hover:text-primary"><p>Humanitarian Assistance</p></a>
           </div>
           <div>
-            <h4 class="font-semibold mb-2">Resources</h4>
-            <p>Blog</p>
-            <p>About us</p>
-            <p>Contact us</p>
+            <a href="#" class="text-foreground hover:text-primary"><h4 class="font-semibold mb-2">Resources</h4></a>
+            <a href="./blog.html" class="text-foreground hover:text-primary"><p>Blog</p></a>
+            <a href="./about.html" class="text-foreground hover:text-primary"><p>About us</p></a>
+            <a href="./about.html#tocontact" class="text-foreground hover:text-primary"><p>Contact us</p></a>
           </div>
         </div>
         <p class="text-center mt-8" id="ftt">Copyright © 2024 IMAM. All rights reserved.</p>
