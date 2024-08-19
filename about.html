@@ -33,7 +33,7 @@
             </div>
             <div class="hidden md:flex space-x-4" id="nav-items">
                 <a href="./index.html" class="text-foreground hover:text-primary">Home</a>
-                <a href="./about.html" class="text-foreground hover:text-primary">About</a>
+                <a href="./about.html" class="text-foreground hover:text-primary" style="color: #6CD1CB;">About</a>
                 <a href="./activities.html" class="text-foreground hover:text-primary">Activities</a>
                 <a href="./blog.html" class="text-foreground hover:text-primary">Blog</a>
                 <a href="./about.html#tocontact" class="text-foreground hover:text-primary">Contact</a>
@@ -205,8 +205,9 @@
                     <h2 class="text-2xl font-semibold text-primary mb-4">Contact Us</h2>
                     <p class="text-muted-foreground mb-4">If you have questions please reach out.</p>
                     <p class="text-muted-foreground mb-4">
-                        Email: inam@gmail.com<br>
-                        Signal: +66 987654321
+                        Email: <a href="mailto:office.imam2022@gmail.com" class="text-foreground hover:text-primary">&nbsp;office.imam2022@gmail.com</a>
+                        <br>
+                        
                     </p>
                     <form class="space-y-4">
                         <input type="text" placeholder="Name" class="w-full p-2 border border-input rounded focus:outline-none focus:ring-2 focus:ring-primary">
@@ -219,46 +220,74 @@
             </div>
         </div>           
     </main>
-<!DOCTYPE html>
-<html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Institute for Muslim Affairs in Myanmar</title>
-        <link rel="stylesheet" href="./CSS/footer.css">
-        <script src="https://cdn.tailwindcss.com?plugins=forms,typography"></script>
-    </head>
-<body>
-    <footer class="bg-muted text-muted-foreground mt-16 p-8" id="footer">
-        <div class="grid grid-cols-1 md:grid-cols-4 gap-8 text-center md:text-left" id="ftbody">
-          <div>
-            <h4 class="font-semibold mb-2">Social Media</h4>
-            <a href="#" class="text-foreground hover:text-primary"><p>Facebook</p></a>
-          </div>
-          <div>
-            <h4 class="font-semibold mb-2">Contact</h4>
-            <a href="#" class="text-foreground hover:text-primary"><p>imam@gmail.com</p></a>
-            <a href="#" class="text-foreground hover:text-primary"><p>Signal</p></a>
-          </div>
-          <div>
-            <a href="./activities.html" class="text-foreground hover:text-primary"><h4 class="font-semibold mb-2">Activities</h4></a>
-            <a href="./activities.html#toResearch" class="text-foreground hover:text-primary"><p>Research</p></a>
-            <a href="./activities.html#toTrain" class="text-foreground hover:text-primary"><p>Training</p></a>
-            <a href="./activities.html#toAdv" class="text-foreground hover:text-primary"><p>Advocacy</p></a>
-            <a href="./activities.html#toRaise" class="text-foreground hover:text-primary"><p>Raising Minorities' Voice</p></a>
-            <a href="./activities.html#toHuman" class="text-foreground hover:text-primary"><p>Humanitarian Assistance</p></a>
-          </div>
-          <div>
-            <a href="#" class="text-foreground hover:text-primary"><h4 class="font-semibold mb-2">Resources</h4></a>
-            <a href="./blog.html" class="text-foreground hover:text-primary"><p>Blog</p></a>
-            <a href="./about.html" class="text-foreground hover:text-primary"><p>About us</p></a>
-            <a href="./about.html#tocontact" class="text-foreground hover:text-primary"><p>Contact us</p></a>
-          </div>
-        </div>
-        <p class="text-center mt-8" id="ftt">Copyright © 2024 IMAM. All rights reserved.</p>
-      </footer>
-</body>
-</html>
-
-</body>
-</html>
+    <!DOCTYPE html>
+    <html lang="en">
+        <head>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <title>Institute for Muslim Affairs in Myanmar</title>
+            <link rel="stylesheet" href="./CSS/footer.css">
+            <script src="https://cdn.tailwindcss.com?plugins=forms,typography"></script>
+        </head>
+    <body>
+        <footer class="bg-muted text-muted-foreground mt-16 p-8" id="footer">
+            <div class="grid grid-cols-1 md:grid-cols-4 gap-8 text-center md:text-left" id="ftbody">
+              <div>
+                <h4 class="font-semibold mb-2">Social Media</h4>
+                <a href="https://www.facebook.com/muslimaffairsmyanmar?mibextid=LQQJ4d" class="text-foreground hover:text-primary"><p>Facebook</p></a>
+              </div>
+              <div>
+                <h4 class="font-semibold mb-2">Contact</h4>
+                <a href="mailto:office.imam2022@gmail.com" class="text-foreground hover:text-primary"><p>Gmail</p></a>
+                <a href="#signalLink" id="signalLink" class="text-foreground hover:text-primary"><p>Signal</p></a>
+                    <div id="qrModal" class="modal">
+                        <div class="modal-content">
+                            <span class="close">&times;</span>
+                            <img src="./Media/sigLogo.jpg" alt="Signal QR Code" width="300">
+                        </div>
+                    </div>
+              </div>
+              <div>
+                <a href="./activities.html" class="text-foreground hover:text-primary"><h4 class="font-semibold mb-2">Activities</h4></a>
+                <a href="./activities.html#toResearch" class="text-foreground hover:text-primary"><p>Research</p></a>
+                <a href="./activities.html#toTrain" class="text-foreground hover:text-primary"><p>Training</p></a>
+                <a href="./activities.html#toAdv" class="text-foreground hover:text-primary"><p>Advocacy</p></a>
+                <a href="./activities.html#toRaise" class="text-foreground hover:text-primary"><p>Raising Minorities' Voice</p></a>
+                <a href="./activities.html#toHuman" class="text-foreground hover:text-primary"><p>Humanitarian Assistance</p></a>
+              </div>
+              <div>
+                <a href="#" class="text-foreground hover:text-primary"><h4 class="font-semibold mb-2">Resources</h4></a>
+                <a href="./blog.html" class="text-foreground hover:text-primary"><p>Blog</p></a>
+                <a href="./about.html" class="text-foreground hover:text-primary"><p>About us</p></a>
+                <a href="./about.html#tocontact" class="text-foreground hover:text-primary"><p>Contact us</p></a>
+              </div>
+            </div>
+            <p class="text-center mt-8" id="ftt">Copyright © 2024 IMAM. All rights reserved.</p>
+          </footer>
+    </body>
+    
+    <script>
+        var modal = document.getElementById("qrModal");
+    
+        var signalLink = document.getElementById("signalLink");
+        var closeButton = document.getElementsByClassName("close")[0];
+    
+        signalLink.onclick = function(event) {
+            modal.style.display = "flex";
+        }
+    
+        closeButton.onclick = function() {
+            modal.style.display = "none";
+        }
+    
+        window.onclick = function(event) {
+            if (event.target == modal) {
+                modal.style.display = "none";
+            }
+        }
+    </script>
+    
+    </html>
+    
+    </body>
+    </html>
