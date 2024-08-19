@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/activities.css">
+    <script src="https://cdn.tailwindcss.com?plugins=forms,typography"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+    <title>activities</title>
+	<script src="https://unpkg.com/unlazy@0.11.3/dist/unlazy.with-hashing.iife.js" defer init></script>
+  </head>
+<body>
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Institute for Muslim Affairs in Myanmar</title>
+        <link rel="stylesheet" href="./css/nav.css">
+        <script src="https://cdn.tailwindcss.com?plugins=forms,typography"></script>
+        <script src="scripts.js" defer></script>
+    </head>
+<body>
+    <div class="min-h-screen bg-background text-foreground" id="position">
+        <nav class="flex items-center justify-between p-4 border-b border-border" id="nav">
+            <div class="flex items-center space-x-2">
+                <a href="./index.html" class="text-foreground hover:text-primary">
+                    <img src="./Media/LOGO.png" alt="Institute for Muslim Affairs in Myanmar Logo" class="h-10 w-10">
+                </a>
+                <a href="./index.html" class="text-foreground hover:text-primary">
+                    <span class="font-semibold text-lg">Institute for Muslim Affairs in Myanmar</span>
+                </a>
+            </div>
+            <div class="hidden md:flex space-x-4" id="nav-items">
+                <a href="./index.html" class="text-foreground hover:text-primary">Home</a>
+                <a href="./about.html" class="text-foreground hover:text-primary">About</a>
+                <a href="./activities.html" class="text-foreground hover:text-primary">Activities</a>
+                <a href="./blog.html" class="text-foreground hover:text-primary">Blog</a>
+                <a href="./about.html#tocontact" class="text-foreground hover:text-primary">Contact</a>
+            </div>
+            <div class="md:hidden">
+                <button id="menu-button" class="text-foreground hover:text-primary focus:outline-none">
+                    <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7"></path>
+                    </svg>
+                </button>
+            </div>
+        </nav>
+
+        <div id="mobile-menu" class="hidden md:hidden">
+            <a href="./index.html" class="block px-4 py-2 text-foreground hover:bg-primary hover:text-primary-foreground">Home</a>
+            <a href="./about.html" class="block px-4 py-2 text-foreground hover:bg-primary hover:text-primary-foreground">About</a>
+            <a href="./activities.html" class="block px-4 py-2 text-foreground hover:bg-primary hover:text-primary-foreground">Activities</a>
+            <a href="./blog.html" class="block px-4 py-2 text-foreground hover:bg-primary hover:text-primary-foreground">Blog</a>
+            <a href="./about.html#tocontact" class="block px-4 py-2 text-foreground hover:bg-primary hover:text-primary-foreground">Contact</a>
+        </div>
+    </div>
+</body>
+<script>
+    document.addEventListener('DOMContentLoaded', function () {
+        const menuButton = document.getElementById('menu-button');
+        const mobileMenu = document.getElementById('mobile-menu');
+      
+        menuButton.addEventListener('click', () => {
+          mobileMenu.classList.toggle('hidden');
+          mobileMenu.classList.toggle('open');
+        });
+    });
+</script>
+</html>
+
+    <main>
+        
+    <div class="text-center mb-8" id="title">
+            <h1 class="abt" id="toResearch">Activities</h1>
+    </div>
+        <div id="line"></div>
+    <div class="bg-background text-foreground p-8" id="blog-layout">
+        <section class="mb-16">
+            <h2 class="text-2xl font-bold mb-4">Research</h2>
+
+            <div class="content-container">
+                <p id="toTrain">IMAM research will be leading to two types
+                    of audiences. First, we will do research
+                    writing to give information to the general
+                    public to promote liberal democratic values
+                    and protect minority right in democracies.
+                    Second, detail researching and publishing
+                    advocacy papers for political actors
+                    highlighting the importance of the Muslim
+                    minority issue in building a peaceful federal
+                    democratic future Burma.</p>
+                </div>
+
+            <div id="div-i" class="flex flex-wrap gap-8">
+                <div class="bg-card p-4 rounded-lg">
+                    <img src="https://placehold.co/600x400" alt="A hope for better future" id="block-element-1">
+                    <h3 class="text-xl font-semibold mb-2" id="block-element-2">The Spring: A hope for better future</h3>
+                    <p class="text-muted-foreground mb-4" id="block-element-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                        eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+                    <button class="bg-primary text-primary-foreground hover:bg-primary/80 px-4 py-2 rounded" id="block-element-4">Read More</button>
+                </div>                
+                <div class="bg-card p-4 rounded-lg">
+                    <img src="https://placehold.co/600x400" alt="A hope for better future" id="block-element-1">
+                    <h3 class="text-xl font-semibold mb-2" id="block-element-2">The Spring: A hope for better future</h3>
+                    <p class="text-muted-foreground mb-4" id="block-element-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                        eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+                    <button class="bg-primary text-primary-foreground hover:bg-primary/80 px-4 py-2 rounded" id="block-element-4">Read More</button>
+                </div>
+                <div id="sbox" class="flex-1 max-w-md flex items-center justify-center">
+                    <a href="#" class="text-primary hover:underline">See More</a>
+                </div>
+            </div>
+        </section>
+        <div id="line"></div>
+        <section class="mb-16">
+          <h2 class="text-2xl font-bold mb-4">Training</h2>
+
+            <div class="content-container">
+                <p id="toAdv">Training is targeting young Muslim activists
+                    and young people from various communities
+                    to promote multiculturalism and to better
+                    understand diverse communities within the
+                    country. Training sections will be covering
+                    human rights, minority rights in federalism,
+                    woman's rights in democracy, and so on.
+                    Both online and on-ground training sections
+                    will conduct with the scholars in the relevant
+                    fields.</p>
+                </div>
+
+            <div id="div-i" class="flex flex-wrap gap-8">
+                <div class="bg-card p-4 rounded-lg">
+                    <img src="https://placehold.co/600x400" alt="A hope for better future" id="block-element-1">
+                    <h3 class="text-xl font-semibold mb-2" id="block-element-2">The Spring: A hope for better future</h3>
+                    <p class="text-muted-foreground mb-4" id="block-element-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                        eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+                    <button class="bg-primary text-primary-foreground hover:bg-primary/80 px-4 py-2 rounded" id="block-element-4">Read More</button>
+                </div>                
+                <div class="bg-card p-4 rounded-lg">
+                    <img src="https://placehold.co/600x400" alt="A hope for better future" id="block-element-1">
+                    <h3 class="text-xl font-semibold mb-2" id="block-element-2">The Spring: A hope for better future</h3>
+                    <p class="text-muted-foreground mb-4" id="block-element-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                        eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+                    <button class="bg-primary text-primary-foreground hover:bg-primary/80 px-4 py-2 rounded" id="block-element-4">Read More</button>
+                </div>
+                <div id="sbox" class="flex-1 max-w-md flex items-center justify-center">
+                    <a href="#" class="text-primary hover:underline">See More</a>
+                </div>
+            </div>
+        </section>
+        <div id="line"></div>
+        <section class="mb-16">
+          <h2 class="text-2xl font-bold mb-4">Advocacy</h2>
+
+            <div class="content-container">
+                <p id="toRaise">Policy advocacy is needed in this transitional
+                    period and future Burma as the people of
+                    Burma were hoping for a “New” state totally
+                    different from the past. We will advocate
+                    the issue of religious minorities to
+                    international organizations, student and
+                    youth organizations, student unions,
+                    resistance political organizations, and
+                    members of parliament.</p>
+                </div>
+
+            <div id="div-i" class="flex flex-wrap gap-8">
+                <div class="bg-card p-4 rounded-lg">
+                    <img src="https://placehold.co/600x400" alt="A hope for better future" id="block-element-1">
+                    <h3 class="text-xl font-semibold mb-2" id="block-element-2">The Spring: A hope for better future</h3>
+                    <p class="text-muted-foreground mb-4" id="block-element-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                        eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+                    <button class="bg-primary text-primary-foreground hover:bg-primary/80 px-4 py-2 rounded" id="block-element-4">Read More</button>
+                </div>                
+                <div class="bg-card p-4 rounded-lg">
+                    <img src="https://placehold.co/600x400" alt="A hope for better future" id="block-element-1">
+                    <h3 class="text-xl font-semibold mb-2" id="block-element-2">The Spring: A hope for better future</h3>
+                    <p class="text-muted-foreground mb-4" id="block-element-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                        eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+                    <button class="bg-primary text-primary-foreground hover:bg-primary/80 px-4 py-2 rounded" id="block-element-4">Read More</button>
+                </div>
+                <div id="sbox" class="flex-1 max-w-md flex items-center justify-center">
+                    <a href="#" class="text-primary hover:underline">See More</a>
+                </div>
+            </div>
+        </section>
+        <div id="line"></div>
+        <section class="mb-16">
+          <h2 class="text-2xl font-bold mb-4">Raising Minorities' Voice</h2>
+
+            <div class="content-container">
+                <p id="toHuman">Raising the voice of minorities by various
+                    means like websites, social media, web-
+                    based journals and other available methods.</p>
+            </div>
+
+            <div id="div-i" class="flex flex-wrap gap-8">
+                <div class="bg-card p-4 rounded-lg">
+                    <img src="https://placehold.co/600x400" alt="A hope for better future" id="block-element-1">
+                    <h3 class="text-xl font-semibold mb-2" id="block-element-2">The Spring: A hope for better future</h3>
+                    <p class="text-muted-foreground mb-4" id="block-element-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                        eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+                    <button class="bg-primary text-primary-foreground hover:bg-primary/80 px-4 py-2 rounded" id="block-element-4">Read More</button>
+                </div>                
+                <div class="bg-card p-4 rounded-lg">
+                    <img src="https://placehold.co/600x400" alt="A hope for better future" id="block-element-1">
+                    <h3 class="text-xl font-semibold mb-2" id="block-element-2">The Spring: A hope for better future</h3>
+                    <p class="text-muted-foreground mb-4" id="block-element-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                        eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+                    <button class="bg-primary text-primary-foreground hover:bg-primary/80 px-4 py-2 rounded" id="block-element-4">Read More</button>
+                </div>
+                <div id="sbox" class="flex-1 max-w-md flex items-center justify-center">
+                    <a href="#" class="text-primary hover:underline">See More</a>
+                </div>
+            </div>
+        </section>
+        <div id="line"></div>
+        <section class="mb-16">
+          <h2 class="text-2xl font-bold mb-4">Humanitarian Assistance</h2>
+
+            <div class="content-container">
+                <p>According to UNHCR data, approximately 1.9 million people in Myanmar have been displaced due to the escalating conflict between the military junta and resistance forces. The intensification of fighting has forced thousands of individuals to flee to neighboring countries, driven by concerns for their safety and security. Additionally, data from the Assistance Association of Political Prisoners Burma reveals that as of now, 19,922 people remain detained in prisons.</p>
+                <p>In response to this humanitarian crisis, IMAM is actively engaged in delivering crucial assistance to those affected. This includes providing essential foods and medicines to displaced people within Internally Displaced Persons (IDP) camps inside Burma. Moreover, IMAM is extending support to political prisoners, reflecting a commitment to addressing both the immediate needs of displaced populations and advocating for the rights and well-being of those detained. This demonstrates a crucial effort to alleviate the hardships faced by individuals affected by the ongoing conflict and political unrest in Myanmar.</p>
+                </div>
+
+            <div id="div-i" class="flex flex-wrap gap-8">
+                <div class="bg-card p-4 rounded-lg">
+                    <img src="https://placehold.co/600x400" alt="A hope for better future" id="block-element-1">
+                    <h3 class="text-xl font-semibold mb-2" id="block-element-2">The Spring: A hope for better future</h3>
+                    <p class="text-muted-foreground mb-4" id="block-element-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                        eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+                    <button class="bg-primary text-primary-foreground hover:bg-primary/80 px-4 py-2 rounded" id="block-element-4">Read More</button>
+                </div>                
+                <div class="bg-card p-4 rounded-lg">
+                    <img src="https://placehold.co/600x400" alt="A hope for better future" id="block-element-1">
+                    <h3 class="text-xl font-semibold mb-2" id="block-element-2">The Spring: A hope for better future</h3>
+                    <p class="text-muted-foreground mb-4" id="block-element-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                        eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+                    <button class="bg-primary text-primary-foreground hover:bg-primary/80 px-4 py-2 rounded" id="block-element-4">Read More</button>
+                </div>
+                <div id="sbox" class="flex-1 max-w-md flex items-center justify-center">
+                    <a href="#" class="text-primary hover:underline">See More</a>
+                </div>
+            </div>
+        </section>
+        <div id="line"></div>
+    </div>
+
+</main>
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Institute for Muslim Affairs in Myanmar</title>
+        <link rel="stylesheet" href="./css/footer.css">
+        <script src="https://cdn.tailwindcss.com?plugins=forms,typography"></script>
+    </head>
+<body>
+    <footer class="bg-muted text-muted-foreground mt-16 p-8" id="footer">
+        <div class="grid grid-cols-1 md:grid-cols-4 gap-8 text-center md:text-left" id="ftbody">
+          <div>
+            <h4 class="font-semibold mb-2">Social Media</h4>
+            <a href="#" class="text-foreground hover:text-primary"><p>Facebook</p></a>
+          </div>
+          <div>
+            <h4 class="font-semibold mb-2">Contact</h4>
+            <a href="#" class="text-foreground hover:text-primary"><p>imam@gmail.com</p></a>
+            <a href="#" class="text-foreground hover:text-primary"><p>Signal</p></a>
+          </div>
+          <div>
+            <a href="./activities.html" class="text-foreground hover:text-primary"><h4 class="font-semibold mb-2">Activities</h4></a>
+            <a href="./activities.html#toResearch" class="text-foreground hover:text-primary"><p>Research</p></a>
+            <a href="./activities.html#toTrain" class="text-foreground hover:text-primary"><p>Training</p></a>
+            <a href="./activities.html#toAdv" class="text-foreground hover:text-primary"><p>Advocacy</p></a>
+            <a href="./activities.html#toRaise" class="text-foreground hover:text-primary"><p>Raising Minorities' Voice</p></a>
+            <a href="./activities.html#toHuman" class="text-foreground hover:text-primary"><p>Humanitarian Assistance</p></a>
+          </div>
+          <div>
+            <a href="#" class="text-foreground hover:text-primary"><h4 class="font-semibold mb-2">Resources</h4></a>
+            <a href="./blog.html" class="text-foreground hover:text-primary"><p>Blog</p></a>
+            <a href="./about.html" class="text-foreground hover:text-primary"><p>About us</p></a>
+            <a href="./about.html#tocontact" class="text-foreground hover:text-primary"><p>Contact us</p></a>
+          </div>
+        </div>
+        <p class="text-center mt-8" id="ftt">Copyright © 2024 IMAM. All rights reserved.</p>
+      </footer>
+</body>
+</html>
+
+</body>
+</html>

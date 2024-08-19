@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/blog.css">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com?plugins=forms,typography"></script>
+    <script src="https://unpkg.com/unlazy@0.11.3/dist/unlazy.with-hashing.iife.js" defer init></script>
+    <title>blog</title>
+</head>
+<body>
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Institute for Muslim Affairs in Myanmar</title>
+        <link rel="stylesheet" href="./css/nav.css">
+        <script src="https://cdn.tailwindcss.com?plugins=forms,typography"></script>
+        <script src="scripts.js" defer></script>
+    </head>
+<body>
+    <div class="min-h-screen bg-background text-foreground" id="position">
+        <nav class="flex items-center justify-between p-4 border-b border-border" id="nav">
+            <div class="flex items-center space-x-2">
+                <a href="./index.html" class="text-foreground hover:text-primary">
+                    <img src="./Media/LOGO.png" alt="Institute for Muslim Affairs in Myanmar Logo" class="h-10 w-10">
+                </a>
+                <a href="./index.html" class="text-foreground hover:text-primary">
+                    <span class="font-semibold text-lg">Institute for Muslim Affairs in Myanmar</span>
+                </a>
+            </div>
+            <div class="hidden md:flex space-x-4" id="nav-items">
+                <a href="./index.html" class="text-foreground hover:text-primary">Home</a>
+                <a href="./about.html" class="text-foreground hover:text-primary">About</a>
+                <a href="./activities.html" class="text-foreground hover:text-primary">Activities</a>
+                <a href="./blog.html" class="text-foreground hover:text-primary">Blog</a>
+                <a href="./about.html#tocontact" class="text-foreground hover:text-primary">Contact</a>
+            </div>
+            <div class="md:hidden">
+                <button id="menu-button" class="text-foreground hover:text-primary focus:outline-none">
+                    <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7"></path>
+                    </svg>
+                </button>
+            </div>
+        </nav>
+
+        <div id="mobile-menu" class="hidden md:hidden">
+            <a href="./index.html" class="block px-4 py-2 text-foreground hover:bg-primary hover:text-primary-foreground">Home</a>
+            <a href="./about.html" class="block px-4 py-2 text-foreground hover:bg-primary hover:text-primary-foreground">About</a>
+            <a href="./activities.html" class="block px-4 py-2 text-foreground hover:bg-primary hover:text-primary-foreground">Activities</a>
+            <a href="./blog.html" class="block px-4 py-2 text-foreground hover:bg-primary hover:text-primary-foreground">Blog</a>
+            <a href="./about.html#tocontact" class="block px-4 py-2 text-foreground hover:bg-primary hover:text-primary-foreground">Contact</a>
+        </div>
+    </div>
+</body>
+<script>
+    document.addEventListener('DOMContentLoaded', function () {
+        const menuButton = document.getElementById('menu-button');
+        const mobileMenu = document.getElementById('mobile-menu');
+      
+        menuButton.addEventListener('click', () => {
+          mobileMenu.classList.toggle('hidden');
+          mobileMenu.classList.toggle('open');
+        });
+    });
+</script>
+</html>
+
+    <main>
+        
+    <div id="title" class="text-center mb-8">
+        <h1 class="abt">Blog</h1>
+    </div>
+    <div id="line"></div>
+    <div id="blog-layout" class="bg-background text-foreground p-8">
+        <section class="mb-16">
+            <h2 class="text-2xl font-bold mb-4">Article</h2>
+            <div id="div-i" class="flex flex-wrap gap-8">
+                <div class="bg-card p-4 rounded-lg">
+                    <img src="./Media/article1.jpg" alt="A hope for better future" id="block-element-1" >
+                    <h3 class="text-xl font-semibold mb-2" id="block-element-2">The Spring: A hope for better future</h3>
+                    <p class="text-muted-foreground mb-4" id="block-element-3">When the news of a Muslim activist appear, Ko Aung Zaw Oo (Muhammad Faruk), died of injuries from inhuman ...</p>
+                    <a href="./article1.html" class="text-foreground hover:text-primary">
+                        <button class="bg-primary text-primary-foreground hover:bg-primary/80 px-4 py-2 rounded" id="block-element-4">Read More</button>
+                    </a>
+                </div>                
+                <div class="bg-card p-4 rounded-lg" id="toHide">
+                    <img src="https://placehold.co/600x400" alt="A hope for better future" id="block-element-1">
+                    <h3 class="text-xl font-semibold mb-2" id="block-element-2">The Spring: A hope for better future</h3>
+                    <p class="text-muted-foreground mb-4" id="block-element-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                        eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+                    <button class="bg-primary text-primary-foreground hover:bg-primary/80 px-4 py-2 rounded" id="block-element-4">Read More</button>
+                </div>
+                <div id="sboxToHide" class="flex-1 max-w-md flex items-center justify-center">
+                    <a href="#" class="text-primary hover:underline">See More</a>
+                </div>
+            </div>
+        </section>
+        <div id="line"></div>
+        <section class="mb-16">
+            <h2 class="text-2xl font-bold mb-4">Training</h2>
+            <div id="div-i" class="flex flex-wrap gap-8">
+                <div class="bg-card p-4 rounded-lg">
+                    <img src="./Media/Tr1.jpg" alt="A hope for better future" id="block-element-1">
+                    <h3 class="text-xl font-semibold mb-2" id="block-element-2">Training 1 - Politics, Ethnicity and Conflict</h3>
+                    <p class="text-muted-foreground mb-4" id="block-element-3"> </p>
+                    <button class="bg-primary text-primary-foreground hover:bg-primary/80 px-4 py-2 rounded" id="block-element-4">Read More</button>
+                </div>                
+                <div class="bg-card p-4 rounded-lg">
+                    <img src="./Media/Tr2.jpg" alt="A hope for better future" id="block-element-1">
+                    <h3 class="text-xl font-semibold mb-2" id="block-element-2">
+                        Training 2 - Inclusion and Exclusion in Myanmar's Federal Democracy
+                    </h3>
+                    <p class="text-muted-foreground mb-4" id="block-element-3"> </p>
+                    <button class="bg-primary text-primary-foreground hover:bg-primary/80 px-4 py-2 rounded" id="block-element-4">Read More</button>
+                </div>
+                <div id="sboxTHide" class="flex-1 max-w-md flex items-center justify-center">
+                    <a href="#" class="text-primary hover:underline"></a>
+                </div>
+                <div class="bg-card p-4 rounded-lg">
+                    <img src="./Media/Tr3.jpg" alt="A hope for better future" id="block-element-1">
+                    <h3 class="text-xl font-semibold mb-2" id="block-element-2">
+                        Training 3 - Multiculturalism in divided societies
+                    </h3>
+                    <p class="text-muted-foreground mb-4" id="block-element-3"> </p>
+                    <button class="bg-primary text-primary-foreground hover:bg-primary/80 px-4 py-2 rounded" id="block-element-4">Read More</button>
+                </div>
+                <div class="bg-card p-4 rounded-lg">
+                    <img src="./Media/Tr4.jpg" alt="A hope for better future" id="block-element-1">
+                    <h3 class="text-xl font-semibold mb-2" id="block-element-2">
+                        Training 4 - Basic Political<br>
+                        Psychology and Mental Health
+                    </h3>
+                    <p class="text-muted-foreground mb-4" id="block-element-3"> </p>
+                    <button class="bg-primary text-primary-foreground hover:bg-primary/80 px-4 py-2 rounded" id="block-element-4">Read More</button>
+                </div>
+                <div id="sboxTHide" class="flex-1 max-w-md flex items-center justify-center">
+                    <a href="#" class="text-primary hover:underline"></a>
+                </div>
+                <div class="bg-card p-4 rounded-lg">
+                    <img src="./Media/Tr5.jpg" alt="A hope for better future" id="block-element-1">
+                    <h3 class="text-xl font-semibold mb-2" id="block-element-2">Traininig 5 - Interim political arrangement</h3>
+                    <p class="text-muted-foreground mb-4" id="block-element-3"> </p>
+                    <button class="bg-primary text-primary-foreground hover:bg-primary/80 px-4 py-2 rounded" id="block-element-4">Read More</button>
+                </div>
+                <div id="sboxToHide" class="flex-1 max-w-md flex items-center justify-center">
+                    <a href="#" class="text-primary hover:underline">See More</a>
+                </div>
+            </div>
+        </section>
+    </div>
+</main>
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Institute for Muslim Affairs in Myanmar</title>
+        <link rel="stylesheet" href="./css/footer.css">
+        <script src="https://cdn.tailwindcss.com?plugins=forms,typography"></script>
+    </head>
+<body>
+    <footer class="bg-muted text-muted-foreground mt-16 p-8" id="footer">
+        <div class="grid grid-cols-1 md:grid-cols-4 gap-8 text-center md:text-left" id="ftbody">
+          <div>
+            <h4 class="font-semibold mb-2">Social Media</h4>
+            <a href="#" class="text-foreground hover:text-primary"><p>Facebook</p></a>
+          </div>
+          <div>
+            <h4 class="font-semibold mb-2">Contact</h4>
+            <a href="#" class="text-foreground hover:text-primary"><p>imam@gmail.com</p></a>
+            <a href="#" class="text-foreground hover:text-primary"><p>Signal</p></a>
+          </div>
+          <div>
+            <a href="./activities.html" class="text-foreground hover:text-primary"><h4 class="font-semibold mb-2">Activities</h4></a>
+            <a href="./activities.html#toResearch" class="text-foreground hover:text-primary"><p>Research</p></a>
+            <a href="./activities.html#toTrain" class="text-foreground hover:text-primary"><p>Training</p></a>
+            <a href="./activities.html#toAdv" class="text-foreground hover:text-primary"><p>Advocacy</p></a>
+            <a href="./activities.html#toRaise" class="text-foreground hover:text-primary"><p>Raising Minorities' Voice</p></a>
+            <a href="./activities.html#toHuman" class="text-foreground hover:text-primary"><p>Humanitarian Assistance</p></a>
+          </div>
+          <div>
+            <a href="#" class="text-foreground hover:text-primary"><h4 class="font-semibold mb-2">Resources</h4></a>
+            <a href="./blog.html" class="text-foreground hover:text-primary"><p>Blog</p></a>
+            <a href="./about.html" class="text-foreground hover:text-primary"><p>About us</p></a>
+            <a href="./about.html#tocontact" class="text-foreground hover:text-primary"><p>Contact us</p></a>
+          </div>
+        </div>
+        <p class="text-center mt-8" id="ftt">Copyright © 2024 IMAM. All rights reserved.</p>
+      </footer>
+</body>
+</html>
+
+</body>
+</html>
