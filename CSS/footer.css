@@ -1,0 +1,36 @@
+ #ftbody {
+    margin: 0 auto;
+    width: 90%;
+    max-width: 70%;
+    margin: 0 auto;
+    opacity: 1;
+    color: black;
+  }
+
+  body {
+    font-family: "Lato", sans-serif;
+    
+}
+
+  #ftt {
+    font-size: 0.7rem;
+  }
+  
+  @layer utilities {
+    .bg-muted {
+      background-color: hsl(var(--muted));
+    }
+  
+    .text-muted-foreground {
+      color: hsl(var(--muted-foreground));
+    }
+  }
+  
+  @media only screen and (max-width: 767px) {
+    #footer {
+      width: 100%;
+      max-width: 100%;
+      margin: 0 auto;
+    }
+  }
+  

@@ -1,0 +1,545 @@
+@layer base {
+    :root {
+        --background: 0 0% 100%;
+        --foreground: 240 10% 23%;
+        --card: 0 0% 100%;
+        --border: 240 6% 89%;
+        --input: 240 6% 89%;
+        --primary: 220 40% 40%;
+        --primary-foreground: 210 40% 98%;
+        --secondary: 240 5.1% 46.1%;
+        --secondary-foreground: 0 0% 98%;
+        --muted: 240 4.8% 95.9%;
+        --muted-foreground: 240 3.8% 46.1%;
+    }
+
+    html {
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+    }
+
+    body {
+        font-family: 'Nunito', sans-serif;
+        background-color: hsl(var(--background));
+        color: hsl(var(--foreground));
+    }
+}
+
+@layer components {
+    .container {
+        max-width: 1280px;
+    }
+}
+
+@layer utilities {
+    .bg-background {
+        background-color: hsl(var(--background));
+    }
+
+    .text-foreground {
+        color: hsl(var(--foreground));
+    }
+
+    .bg-card {
+        background-color: hsl(var(--card));
+    }
+
+    .border-border {
+        border-color: hsl(var(--border));
+    }
+
+    .bg-input {
+        background-color: hsl(var(--input));
+    }
+
+    .bg-primary {
+        background-color: hsl(var(--primary));
+    }
+
+    .text-primary-foreground {
+        color: hsl(var(--primary-foreground));
+    }
+
+    .bg-secondary {
+        background-color: hsl(var(--secondary));
+    }
+
+    .text-secondary-foreground {
+        color: hsl(var(--secondary-foreground));
+    }
+
+    .bg-muted {
+        background-color: hsl(var(--muted));
+    }
+
+    .text-muted-foreground {
+        color: hsl(var(--muted-foreground));
+    }
+}
+
+body {
+    font-family: "Lato", sans-serif;
+}
+
+main {
+    padding: 0;
+    padding-top: 3.125rem;
+}
+
+#header-pic img {
+    width: 100%;
+    height: auto;
+    display: block;
+    max-width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+#div-i {
+    margin: 15.63%;
+    text-align: center;
+}
+
+.btn-1 {
+    margin: 1.56%;
+    border-radius: 1.875rem;
+    border: 0.125rem solid #6CD1CB;
+    padding: 0.625rem 1.25rem;
+    cursor: pointer;
+    text-align: center;
+    font: normal normal bold 1.3125rem/1.5625rem Lato;
+    color: #6CD1CB;
+    opacity: 1;
+}
+
+.arrow {
+    width: 3.02%;
+    margin-right: 3.13%;
+    align-items: center;
+    margin-top: 1rem;
+}
+
+.wrap {
+    height: 67.5rem;
+    width: 100%;
+    background: #6CD1CB 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+
+#bg {
+    height: 20.28%;
+    width: 100%;
+    background: none;
+}
+
+#title-1 {
+    font-size: 2.8125rem;
+    font-weight: bold;
+    line-height: 1;
+    color: #6CD1CB;
+    text-align: center;
+}
+
+#desktop {
+    font-size: 1.3rem;
+    color: #252525;
+    text-align: center;
+    opacity: 1;
+    margin-bottom: 1rem;
+}
+
+#otherScreens {
+    display: none;
+    font-size: 1.3rem;
+    color: #252525;
+    text-align: center;
+    opacity: 1;
+    margin-bottom: 1rem;
+}
+
+#title-2 {
+    text-align: left;
+    margin-left: 2rem;
+    margin-top: 10%;
+    font-size: 5rem;
+    font-weight: bold;
+    color: #FFFFFF;
+    line-height: 1.5;
+    opacity: 1;
+}
+
+#title-3 {
+    margin: 1.56%;
+    margin-right: 2rem;
+    text-align: right;
+    font-size: 5rem;
+    font-weight: bold;
+    color: #FFFFFF;
+    opacity: 1;
+}
+
+#div-ii {
+    box-shadow: inset 0px 2px 2px #00000029;
+    border: 0.03125rem solid #FFFFFF;
+    border-radius: 3.0625rem;
+    opacity: 1;
+    backdrop-filter: blur(3.125rem);
+    -webkit-backdrop-filter: blur(3.125rem);
+    width: 100%;
+    height: 27.604%;
+    max-width: 100%;
+    padding: 5.21%;
+    margin-top: -450px;
+}
+
+#title-4 {
+    text-align: left;
+    padding-left: 2.604%;
+    font-size: 2.8125rem; 
+    margin-top: 5.25rem;
+    margin-bottom: 1rem;
+}
+
+#list-1 {
+    text-align: left;
+    padding-left: 2.604%;
+    font-size: 1.75rem;
+    padding-top: 3.125rem;
+}
+
+.subpages {
+    width: 90%;
+    max-width: 70%;
+    margin: auto;
+}
+
+#subpages-2 {
+    padding: 0;
+    margin-top: 10.42%;
+}
+
+#rec {
+    font-size: 2.8125rem;
+    font-weight: bold;
+    color: #252525;
+    text-align: center;
+    margin-bottom: 3.125rem;
+    margin-top: 12.5rem;
+    opacity: 1;
+}
+
+#bb-button {
+    height: 12.5rem; 
+    width: 100%;
+    margin: 0;
+    background: #6CD1CB 0% 0% no-repeat padding-box;
+    opacity: 1;
+    border-radius: 1.5rem;
+    font-size: 2.8125rem;
+    font-weight: bold;
+    padding-left: 1.5rem;
+    text-align: left;
+    cursor: pointer;
+    transition: background 0.3s ease, transform 0.3s ease;
+}
+
+#bb-button:hover {
+    background: #59bdb6; /* Slightly darker shade of the original color */
+    transform: translateY(-5px); /* Adds a slight lift effect */
+}
+
+#bb-container {
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: 1fr 1fr;
+    gap: 1.25rem;
+}
+
+.arrow {
+    width: 3.125rem;
+    margin-bottom: -3.625rem; 
+}
+
+.line {
+    margin-top: 6.25rem;
+    margin-bottom: -6.25rem; 
+    width: 1000%;
+    margin-left: -200%;
+}
+
+#blocks {
+    margin-bottom: 12.5rem; 
+    box-shadow: none;
+    display: grid;
+    gap: 1rem; 
+    grid-template-columns: 1fr 1fr;
+    gap: 1.25rem;
+}
+
+#block-element-1 {
+    width: 100%;
+    height: 20rem; 
+    background: transparent url('img/Article 1.png') 0% 0% no-repeat padding-box;
+    border-radius: 0.9375rem; 
+    opacity: 1;
+
+}
+
+#block-element-2 {
+    text-align: left;
+    height: 2.125rem;
+    font-size: 1.75rem; 
+    font-weight: bold;
+    margin: 0.9375rem; 
+    margin-left: 0;
+    padding: 0;
+    color: #252525;
+    opacity: 1;
+}
+
+#block-element-3 {
+    height: 2.9375rem;
+    color: #252525;
+    text-align: left;
+    font-size: 1.125rem;
+    opacity: 1;
+}
+
+#block-element-4 {
+    margin-top: 1.25rem; 
+    margin-left: 0;
+    width: 8.3125rem; 
+    height: 2.75rem; 
+    border: 1px solid #6CD1CB;
+    border-radius: 0.3125rem;
+    opacity: 1;
+    cursor: pointer;
+    transition: background 0.3s ease, transform 0.3s ease;
+}
+
+#block-element-4:hover {
+    background: #59bdb6; /* Slightly darker shade of the original color */
+    transform: translateY(-5px); /* Adds a slight lift effect */
+}
+
+#toHide {
+    display: none;
+}
+
+@media (max-width: 1024px) {
+
+    #desktop {
+        display: none;
+    }
+
+    #otherScreens {
+        display: block;
+    }
+
+    #bb-button {
+        height: 5rem; 
+        width: 100%;
+        margin: 0;
+        background: #6CD1CB 0% 0% no-repeat padding-box;
+        opacity: 1;
+        border-radius: 1rem; 
+        font-size: 1rem; 
+        font-weight: bold;
+        padding-left: 1rem; 
+        text-align: left;
+    }
+
+    .arrow {
+        width: 1rem; 
+        margin-bottom: -0.7rem; 
+    }
+
+    #blocks {
+        grid-template-columns: 1fr;
+    }
+
+    #title-2, #title-3 {
+        font-size: 2rem; 
+    }
+
+    #title-1, #rec, #title-4 {
+        font-size: 1.5rem; 
+    }
+
+    #list-1 {
+        font-size: 1rem; 
+    }
+
+    #bg {
+        height: 100px; 
+        width: 100%;
+        background: none;
+    }
+
+    .wrap {
+        height: 40rem;
+        width: 100%;
+        background: #6CD1CB 0% 0% no-repeat padding-box;
+        opacity: 1;
+    }
+
+    #div-ii {
+        box-shadow: inset 0px 2px 2px #00000029;
+        border: 0.03125rem solid #FFFFFF; 
+        border-radius: 3.0625rem; 
+        opacity: 1;
+        backdrop-filter: blur(3.125rem); 
+        -webkit-backdrop-filter: blur(3.125rem); 
+        width: 100%;
+        height: 400px; 
+        max-width: 100%;
+        padding: 2%; 
+        margin-top: -250px;
+    }
+
+    #title-4 {
+        font-size: 1.5rem;
+        margin-top: 10%; 
+    }
+
+}
+
+@media (max-width: 768px) {
+
+    #desktop {
+        display: none;
+    }
+
+    #otherScreens {
+        display: block;
+    }
+
+    #title-2, #title-3 {
+        font-size: 2.5rem; 
+    }
+
+    #bb-button {
+        font-size: 1.7rem; 
+    }
+
+    #title-1, #rec, #title-4 {
+        font-size: 1rem; 
+    }
+
+    #list-1 {
+        font-size: 1.25rem; 
+    }
+
+    #bb-container, #blocks {
+        grid-template-columns: 1fr; 
+    }
+
+    .subpages {
+        width: 96%;
+        max-width: 100%;
+        margin: auto;
+    }
+
+    #title-1 {
+        font-size: 1.5rem; 
+        font-weight: bold;
+        line-height: 1.5;
+        color: #6CD1CB;
+        text-align: center;
+    }
+
+    .btn-1 {
+        margin: 1.56%;
+        border-radius: 1.875rem; 
+        border: 0.125rem solid #6CD1CB; 
+        padding: 0.625rem 1.25rem; 
+        cursor: pointer;
+        text-align: center;
+        font: normal normal bold 1rem/1rem Lato; 
+        color: #6CD1CB;
+        opacity: 1;
+    }
+
+    .arrow {
+        width: 1rem; 
+        margin-bottom: -1.5rem;
+    }
+
+}
+
+@media (max-width: 480px) {
+
+    #desktop {
+        display: none;
+    }
+
+    #otherScreens {
+        display: block;
+        font-size: 0.7rem;
+        color: #252525;
+        text-align: center;
+        opacity: 1;
+        margin-bottom: 1rem;
+    }
+
+    main {
+        padding-top: 2.5rem; 
+    }
+
+    #title-2{
+        font-size: 1.7rem; 
+        margin-left: -25px;
+        margin-top: 100px;
+    }
+
+    #title-3 {
+        font-size: 1.7rem; 
+        margin-top: 30px;
+        margin-right: -25px;
+    }
+
+    #bb-button {
+        font-size: 1.5rem; 
+    }
+
+    #title-1, #rec, #title-4 {
+        font-size: 1.5rem; 
+    }
+
+    #list-1 {
+        font-size: 1rem; 
+    }
+
+    #bb-container, #blocks {
+        grid-template-columns: 1fr; 
+    }
+
+    .subpages {
+        width: 96%;
+        max-width: 100%;
+        margin: auto;
+    }
+
+    #title-1 {
+        font-size: 1rem; 
+        font-weight: bold;
+        line-height: 1.5;
+        color: #6CD1CB;
+        text-align: center;
+    }
+
+    #block-element-3 {
+        height: 5rem; 
+        color: #252525;
+        text-align: left;
+        font-size: 1rem; 
+        opacity: 1;
+        margin-top: 30px;
+    }
+
+    .arrow {
+        width: 1rem;
+        margin-bottom: -1.4rem; 
+    }
+    
+}
