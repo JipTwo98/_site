@@ -35,7 +35,7 @@
             <div class="hidden md:flex space-x-4" id="nav-items">
                 <a href="./index.html" class="text-foreground hover:text-primary">Home</a>
                 <a href="./about.html" class="text-foreground hover:text-primary">About</a>
-                <a href="./activities.html" class="text-foreground hover:text-primary">Activities</a>
+                <a href="./activities.html" class="text-foreground hover:text-primary" style="color: #6CD1CB;">Activities</a>
                 <a href="./blog.html" class="text-foreground hover:text-primary">Blog</a>
                 <a href="./about.html#tocontact" class="text-foreground hover:text-primary">Contact</a>
             </div>
@@ -264,12 +264,18 @@
         <div class="grid grid-cols-1 md:grid-cols-4 gap-8 text-center md:text-left" id="ftbody">
           <div>
             <h4 class="font-semibold mb-2">Social Media</h4>
-            <a href="#" class="text-foreground hover:text-primary"><p>Facebook</p></a>
+            <a href="https://www.facebook.com/muslimaffairsmyanmar?mibextid=LQQJ4d" class="text-foreground hover:text-primary"><p>Facebook</p></a>
           </div>
           <div>
             <h4 class="font-semibold mb-2">Contact</h4>
-            <a href="#" class="text-foreground hover:text-primary"><p>imam@gmail.com</p></a>
-            <a href="#" class="text-foreground hover:text-primary"><p>Signal</p></a>
+            <a href="mailto:office.imam2022@gmail.com" class="text-foreground hover:text-primary"><p>Gmail</p></a>
+            <a href="#signalLink" id="signalLink" class="text-foreground hover:text-primary"><p>Signal</p></a>
+                <div id="qrModal" class="modal">
+                    <div class="modal-content">
+                        <span class="close">&times;</span>
+                        <img src="./Media/sigLogo.jpg" alt="Signal QR Code" width="300">
+                    </div>
+                </div>
           </div>
           <div>
             <a href="./activities.html" class="text-foreground hover:text-primary"><h4 class="font-semibold mb-2">Activities</h4></a>
@@ -289,6 +295,28 @@
         <p class="text-center mt-8" id="ftt">Copyright © 2024 IMAM. All rights reserved.</p>
       </footer>
 </body>
+
+<script>
+    var modal = document.getElementById("qrModal");
+
+    var signalLink = document.getElementById("signalLink");
+    var closeButton = document.getElementsByClassName("close")[0];
+
+    signalLink.onclick = function(event) {
+        modal.style.display = "flex";
+    }
+
+    closeButton.onclick = function() {
+        modal.style.display = "none";
+    }
+
+    window.onclick = function(event) {
+        if (event.target == modal) {
+            modal.style.display = "none";
+        }
+    }
+</script>
+
 </html>
 
 </body>
