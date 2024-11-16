@@ -83,6 +83,15 @@ main {
     opacity: 1;
 }
 
+#publication {
+    height: 6rem;
+    color: #252525;
+    text-align: left;
+    font-size: 1.125rem;
+    opacity: 1;
+    margin-top: 4.2rem;
+}
+
 #block-element-4 {
     margin-top: 1.25rem; 
     margin-left: 0;
