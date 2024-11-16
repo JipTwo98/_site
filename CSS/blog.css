@@ -62,6 +62,14 @@ main {
     margin-bottom: 5rem;
 }
 
+#block-element-pub {
+    width: 25rem;
+    height: 15rem; 
+    background: transparent url('img/Article 1.png') 0% 0% no-repeat padding-box; 
+    opacity: 1;
+    margin-bottom: 5rem;
+}
+
 #block-element-2 {
     text-align: left;
     height: 3rem;
