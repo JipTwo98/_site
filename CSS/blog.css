@@ -153,5 +153,10 @@ main {
         width: 100%;
         max-width: 100%;
     }
+
+    .p-4 {
+        padding: 1rem;
+        max-width: 400px;
+    }
     
 }
